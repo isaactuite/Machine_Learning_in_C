@@ -146,7 +146,7 @@ int main(void){
     printf("Training Data:\n");
     printf("%s\n", header);
 
-    for (int i=0; i<train_records; i++){
+    for (int i=0; i<5; i++){
         printf("[%d, %d, %d, %d, %d, %d, %d, %d, %d, %d, %d, %d]\n", 
         houses_train[i].price,
         houses_train[i].area,
@@ -166,7 +166,7 @@ int main(void){
     printf("Test Data:\n");
     printf("%s\n", header);
 
-    for (int i=0; i<test_records; i++){
+    for (int i=0; i<5; i++){
         printf("[%d, %d, %d, %d, %d, %d, %d, %d, %d, %d, %d, %d]\n", 
         houses_test[i].price,
         houses_test[i].area,
